@@ -29,3 +29,8 @@
 		</tr>
 	</table>
 </div>
+
+## Habitica Stats
+
+<!-- HABITICA:START -->
+<!-- HABITICA:END -->
