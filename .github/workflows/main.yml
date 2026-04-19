@@ -16,4 +16,5 @@ jobs:
         with:
           HABITICA_USER_ID: ${{ secrets.HABITICA_USER_ID }}
           HABITICA_TOKEN: ${{ secrets.HABITICA_TOKEN }}
-          GITHUB_TOK: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
