@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Runs every hour
-    - cron: "0 * * * *"
+    - cron: "0 */3 * * *"
 
 jobs:
   update-readme:
@@ -13,8 +13,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
-      - uses: oleksandryalovyi/todoist-readme@master
+      - uses: actions/checkout@v6
+      - uses: oleksandryalovyi/habitica-readme@master
         with:
           HABITICA_USER_ID: ${{ secrets.HABITICA_USER_ID }}
           HABITICA_TOKEN: ${{ secrets.HABITICA_TOKEN }}
