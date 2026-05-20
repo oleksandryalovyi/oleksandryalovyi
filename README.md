@@ -33,7 +33,7 @@
 ## Habitica Stats
 
 <!-- HABITICA:START -->
-🎯  Completed **6** tasks today           
-📅  Completed **107** tasks this week           
-⭐  Completed **392** tasks this month
+🎯  Completed **7** tasks today           
+📅  Completed **108** tasks this week           
+⭐  Completed **393** tasks this month
 <!-- HABITICA:END -->
