@@ -35,5 +35,5 @@
 <!-- HABITICA:START -->
 🎯  Completed **9** tasks today           
 📅  Completed **73** tasks this week           
-⭐  Completed **356** tasks this month
+⭐  Completed **346** tasks this month
 <!-- HABITICA:END -->
